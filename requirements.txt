@@ -1,0 +1,8 @@
+psutil>=5.9,<7
+watchdog>=4.0,<7
+rich>=13.7,<15
+PyYAML>=6.0,<7
+# Optional Windows executable packaging:
+# pyinstaller>=6.0,<7
+# Optional YARA support:
+# yara-python>=4.5,<5

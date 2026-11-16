@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssh-guard"
+version = "0.1.0"
+description = "Defensive, host-local security monitoring for Windows"
+requires-python = ">=3.11"
+dependencies = [
+  "psutil>=5.9,<7",
+  "watchdog>=4.0,<7",
+  "rich>=13.7,<15",
+  "PyYAML>=6.0,<7",
+]
+
+[project.scripts]
+sshguard = "sshguard.cli:main"
