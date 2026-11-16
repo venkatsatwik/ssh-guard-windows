@@ -58,6 +58,10 @@ The dashboard keeps every scanned file in the table, including clean and unreada
 
 `SSHGuardGUI.exe` is the application-style interface. `SSHGuard.exe` remains the terminal interface.
 
+The GitHub Actions workflow builds both executables on every push to `main`. Download the
+`ssh-guard-windows` artifact from the completed workflow run to use the Windows binaries
+without installing Python.
+
 Use only on systems and files you own or are authorized to inspect. Scanning does not delete or quarantine anything.
 
 ## Limitations
