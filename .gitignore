@@ -6,3 +6,12 @@ build/
 dist/
 *.spec
 .DS_Store
+
+# Local environment and secret material
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.pfx
+*.p12
